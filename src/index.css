@@ -4,16 +4,16 @@
 
 @layer base {
   :root {
-    /* Light Mode */
-    --bg-app: #F3F4F6;
+    /* Light Mode (MS Word Fluent UI matching) */
+    --bg-app: #FFFFFF;
     --bg-document: #FFFFFF;
-    --bg-desk: #E5E7EB;
+    --bg-desk: #F3F2F1;
     --toolbar-bg: #FFFFFF;
-    --toolbar-border: #D1D5DB;
-    --toolbar-hover: #E5E7EB;
-    --text-dark: #111827;
-    --text-document: #111827;
-    --text-muted: #6B7280;
+    --toolbar-border: #E1DFDD;
+    --toolbar-hover: #F3F2F1;
+    --text-dark: #242424;
+    --text-document: #000000;
+    --text-muted: #605E5C;
   }
   
   .dark {
