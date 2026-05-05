@@ -5,7 +5,7 @@ const TitleBar = () => {
     <div className="h-[40px] bg-toolbar-bg flex items-center justify-between px-4 border-b border-toolbar-border shrink-0 select-none">
       {/* Logo */}
       <div className="flex items-center space-x-2">
-        <div className="w-6 h-6 rounded-full bg-accent-primary flex items-center justify-center text-background-app font-bold text-sm">
+        <div className="w-6 h-6 rounded-full bg-accent-primary flex items-center justify-center text-[#1C1C1C] font-bold text-sm">
           ශ
         </div>
         <span className="font-semibold text-text-dark text-sm tracking-wide">ලේඛා</span>
@@ -26,7 +26,7 @@ const TitleBar = () => {
           <i className="ph ph-floppy-disk text-lg"></i>
           <span className="text-xs">Save</span>
         </button>
-        <button className="bg-accent-primary/10 text-accent-primary hover:bg-accent-primary hover:text-background-app transition-colors flex items-center space-x-1 px-3 py-1 rounded-full border border-accent-primary/20">
+        <button className="bg-accent-primary/10 text-accent-primary hover:bg-accent-primary hover:text-[#1C1C1C] transition-colors flex items-center space-x-1 px-3 py-1 rounded-full border border-accent-primary/20">
           <i className="ph ph-share-network text-lg"></i>
           <span className="text-xs font-medium">Share</span>
         </button>

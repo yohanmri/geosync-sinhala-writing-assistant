@@ -59,7 +59,7 @@ const DocumentArea = ({ onDocumentClick }) => {
                 <span className="font-document text-base text-text-dark">ඔහේ</span>
                 <span className="text-xs text-text-muted">(Galle)</span>
               </div>
-              <button className="text-[10px] bg-accent-primary text-background-app px-2 py-1 rounded font-semibold opacity-0 group-hover:opacity-100 transition-opacity">Use</button>
+              <button className="text-[10px] bg-accent-primary text-[#1C1C1C] px-2 py-1 rounded font-semibold opacity-0 group-hover:opacity-100 transition-opacity">Use</button>
             </div>
             
             <div className="flex items-center justify-between p-2 hover:bg-toolbar-hover rounded cursor-pointer group">
@@ -68,12 +68,12 @@ const DocumentArea = ({ onDocumentClick }) => {
                 <span className="font-document text-base text-text-dark">ඔයැයි</span>
                 <span className="text-xs text-text-muted">(Matara)</span>
               </div>
-              <button className="text-[10px] bg-accent-primary text-background-app px-2 py-1 rounded font-semibold opacity-0 group-hover:opacity-100 transition-opacity">Use</button>
+              <button className="text-[10px] bg-accent-primary text-[#1C1C1C] px-2 py-1 rounded font-semibold opacity-0 group-hover:opacity-100 transition-opacity">Use</button>
             </div>
           </div>
           
           <div className="p-2 border-t border-toolbar-border flex justify-between gap-2">
-            <button className="flex-1 text-xs border border-accent-primary/50 text-accent-primary py-1.5 rounded hover:bg-accent-primary hover:text-background-app transition-colors">
+            <button className="flex-1 text-xs border border-accent-primary/50 text-accent-primary py-1.5 rounded hover:bg-accent-primary hover:text-[#1C1C1C] transition-colors">
               Add to Dictionary
             </button>
             <button className="px-3 text-xs text-text-muted hover:text-text-dark py-1.5 rounded hover:bg-toolbar-hover transition-colors" onClick={closePopup}>

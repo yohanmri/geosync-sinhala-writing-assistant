@@ -40,10 +40,10 @@ const VirtualKeyboard = ({ onClose }) => {
             {row.map((key, j) => (
               <button 
                 key={j} 
-                className="w-12 h-14 bg-background-desk rounded flex flex-col items-center justify-center hover:bg-accent-primary hover:text-background-app text-text-dark transition-colors key-press shadow-sm"
+                className="w-12 h-14 bg-background-desk rounded flex flex-col items-center justify-center hover:bg-accent-primary hover:text-[#1C1C1C] text-text-dark transition-colors key-press shadow-sm group"
               >
                 <span className="font-document text-lg mb-1">{key.s}</span>
-                <span className="text-[10px] text-text-muted opacity-70 group-hover:text-background-app/80">{key.e}</span>
+                <span className="text-[10px] text-text-muted opacity-70 group-hover:text-[#1C1C1C]/80">{key.e}</span>
               </button>
             ))}
           </div>

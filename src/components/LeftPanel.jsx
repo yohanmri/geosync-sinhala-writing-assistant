@@ -29,7 +29,7 @@ const LeftPanel = ({ isCollapsed, toggleCollapse }) => {
       {/* Collapse Toggle */}
       <button 
         onClick={toggleCollapse}
-        className="absolute -right-3 top-1/2 -translate-y-1/2 w-6 h-12 bg-toolbar-border rounded-r-md flex items-center justify-center hover:bg-accent-primary hover:text-background-app text-text-muted transition-colors shadow-sm z-10"
+        className="absolute -right-3 top-1/2 -translate-y-1/2 w-6 h-12 bg-toolbar-border rounded-r-md flex items-center justify-center hover:bg-accent-primary hover:text-[#1C1C1C] text-text-muted transition-colors shadow-sm z-10"
       >
         <i className={`ph ${isCollapsed ? 'ph-caret-right' : 'ph-caret-left'}`}></i>
       </button>

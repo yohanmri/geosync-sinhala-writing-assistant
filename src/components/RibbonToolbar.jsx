@@ -8,7 +8,7 @@ const RibbonToolbar = ({ activeTab, isKeyboardOpen, toggleKeyboard, theme, setTh
         <div className="flex flex-col space-y-2 h-full justify-center pr-6 border-r border-accent-secondary/20">
           <div className="text-[10px] text-accent-secondary uppercase font-semibold tracking-wider">Conversion</div>
           <div className="flex items-center space-x-3">
-            <button className="bg-accent-primary text-background-app hover:bg-yellow-500 font-medium px-4 py-1.5 rounded flex items-center space-x-2 transition-colors shadow-sm">
+            <button className="bg-accent-primary text-[#1C1C1C] hover:bg-yellow-500 font-medium px-4 py-1.5 rounded flex items-center space-x-2 transition-colors shadow-sm">
               <i className="ph ph-arrows-left-right text-lg"></i>
               <span>Convert to Southern Dialect</span>
             </button>
